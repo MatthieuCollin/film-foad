@@ -1,0 +1,48 @@
+
+
+.homepage{
+    padding: 1%;
+    .cards {
+        margin: 1%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+        .card {
+            background-color: rgba(26, 115, 232, 0.2);
+            width: calc(33.33% - 20px);
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            text-decoration: none;
+            color: white;
+        
+            img {
+                width: 100%;
+                height: auto;
+                max-height: 400px;
+                object-fit: contain;
+            }
+        
+            h2 {
+                font-size: 1.8rem;
+                font-weight: 600;
+                margin: 20px;
+            }
+        
+            p {
+                font-size: 1.2rem;
+                line-height: 1.5;
+                margin: 0 20px 20px;
+            }
+        
+            &:hover {
+                transition: 0.5s;
+                transform: translateY(-5px);
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+                background-color: rgba(26, 115, 232, 0.4);
+            }
+            }
+    }
+}
